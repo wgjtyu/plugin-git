@@ -82,6 +82,7 @@ function __git.init
   __git.create_abbr gloga      git log --oneline --decorate --color --graph --all
   __git.create_abbr glom       git log --oneline --decorate --color \(__git.default_branch\)..
   __git.create_abbr glod       git log --oneline --decorate --color develop..
+  __git.create_abbr glol       "git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'"
   __git.create_abbr gloo       "git log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=short"
   __git.create_abbr gm         git merge
   __git.create_abbr gmt        git mergetool --no-prompt
